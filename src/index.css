@@ -1,0 +1,139 @@
+body{
+  background-color: #1c1c1c;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: whitesmoke;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.content{
+  padding: .1em;
+  box-sizing: border-box;
+}
+
+.card-image {
+  width: 95%;
+  min-height: 300px;
+  height: 50vh;
+  margin: auto;
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hint-display{
+  background-color: #1c1c1c;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: .1rem;
+  border: none;
+}
+
+.card h1 {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.hint{
+  min-height: 24px;
+}
+
+.hint-btn{
+  border-radius: 20px;
+  width: 10%;
+  min-width: 40px;
+  margin: 5px auto;
+  margin-left: 2.5%;
+  padding: .5rem;
+  background-color: green;
+  color: whitesmoke;
+}
+
+.hint-btn:hover{
+  cursor: pointer;
+  color: #1c1c1c;
+}
+
+.form-input{
+  margin:  0 2.5%;
+}
+
+.form-input label{
+  width: 25%;
+  font-size: 110%;
+}
+
+.guess-input-box{
+  border: 1px solid black;
+  width: 80%;
+  padding: .5rem;
+  border-radius: 20px;
+}
+
+.form-btn{
+  margin: 0;
+  min-height: 100px;
+  margin: 0 2.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.guess-btn,
+.give-up-btn{
+  border-radius: 20px;
+  border: none;
+  background-color: green;
+  color: white;
+  padding: .25em;
+}
+
+.give-up-btn{
+  background-color: red;
+}
+
+.btn{
+  margin: 10px 0;
+  font-size: 1.25rem;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #1c1c1c;
+}
+
+.guess-btn:hover,
+.give-up-btn:hover,
+.new-game:hover{
+    cursor: pointer;
+}
+
+.win-or-lose-msg{
+    margin: 10px 0;
+}
+
+.new-game{
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 20px;
+    margin: 5px auto;
+    padding: 1px;
+    width: 50%;
+}
